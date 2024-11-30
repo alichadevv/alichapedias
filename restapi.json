@@ -1,0 +1,175 @@
+{
+  "success": false,
+  "code": "ERROR",
+  "message": "The route / could not be found.",
+  "data": [
+    {
+      "file": "/home/web/alichapedias-api/vendor/laravel/framework/src/Illuminate/Routing/RouteCollection.php",
+      "line": 162,
+      "function": "handleMatchedRoute",
+      "class": "Illuminate\\Routing\\AbstractRouteCollection",
+      "type": "-\u003E"
+    },
+    {
+      "file": "/home/web/alichapedias-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+      "line": 753,
+      "function": "match",
+      "class": "Illuminate\\Routing\\RouteCollection",
+      "type": "-\u003E"
+    },
+    {
+      "file": "/home/web/alichapedias-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+      "line": 740,
+      "function": "findRoute",
+      "class": "Illuminate\\Routing\\Router",
+      "type": "-\u003E"
+    },
+    {
+      "file": "/home/web/alichapedias-api/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+      "line": 729,
+      "function": "dispatchToRoute",
+      "class": "Illuminate\\Routing\\Router",
+      "type": "-\u003E"
+    },
+    {
+      "file": "/home/web/alichapedias-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php",
+      "line": 190,
+      "function": "dispatch",
+      "class": "Illuminate\\Routing\\Router",
+      "type": "-\u003E"
+    },
+    {
+      "file": "/home/web/alichapedias-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 141,
+      "function": "Illuminate\\Foundation\\Http\\{closure}",
+      "class": "Illuminate\\Foundation\\Http\\Kernel",
+      "type": "-\u003E"
+    },
+    {
+      "file": "/home/web/alichapedias-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php",
+      "line": 21,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "-\u003E"
+    },
+    {
+      "file": "/home/web/alichapedias-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php",
+      "line": 31,
+      "function": "handle",
+      "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+      "type": "-\u003E"
+    },
+    {
+      "file": "/home/web/alichapedias-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 180,
+      "function": "handle",
+      "class": "Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull",
+      "type": "-\u003E"
+    },
+    {
+      "file": "/home/web/alichapedias-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php",
+      "line": 21,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "-\u003E"
+    },
+    {
+      "file": "/home/web/alichapedias-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php",
+      "line": 40,
+      "function": "handle",
+      "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+      "type": "-\u003E"
+    },
+    {
+      "file": "/home/web/alichapedias-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 180,
+      "function": "handle",
+      "class": "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings",
+      "type": "-\u003E"
+    },
+    {
+      "file": "/home/web/alichapedias-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php",
+      "line": 27,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "-\u003E"
+    },
+    {
+      "file": "/home/web/alichapedias-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 180,
+      "function": "handle",
+      "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+      "type": "-\u003E"
+    },
+    {
+      "file": "/home/web/alichapedias-api/app/Http/Middleware/PreventRequestsDuringMaintenance.php",
+      "line": 46,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "-\u003E"
+    },
+    {
+      "file": "/home/web/alichapedias-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 180,
+      "function": "handle",
+      "class": "App\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+      "type": "-\u003E"
+    },
+    {
+      "file": "/home/web/alichapedias-api/vendor/fruitcake/laravel-cors/src/HandleCors.php",
+      "line": 38,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "-\u003E"
+    },
+    {
+      "file": "/home/web/alichapedias-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 180,
+      "function": "handle",
+      "class": "Fruitcake\\Cors\\HandleCors",
+      "type": "-\u003E"
+    },
+    {
+      "file": "/home/web/alichapedias-api/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php",
+      "line": 39,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "-\u003E"
+    },
+    {
+      "file": "/home/web/alichapedias-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 180,
+      "function": "handle",
+      "class": "Illuminate\\Http\\Middleware\\TrustProxies",
+      "type": "-\u003E"
+    },
+    {
+      "file": "/home/web/alichapedias-api/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+      "line": 116,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "-\u003E"
+    },
+    {
+      "file": "/home/web/alichapedias-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php",
+      "line": 165,
+      "function": "then",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "-\u003E"
+    },
+    {
+      "file": "/home/web/alichapedias-api/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php",
+      "line": 134,
+      "function": "sendRequestThroughRouter",
+      "class": "Illuminate\\Foundation\\Http\\Kernel",
+      "type": "-\u003E"
+    },
+    {
+      "file": "/home/web/alichapedias-api/public/index.php",
+      "line": 51,
+      "function": "handle",
+      "class": "Illuminate\\Foundation\\Http\\Kernel",
+      "type": "-\u003E"
+    }
+  ]
+}
